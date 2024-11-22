@@ -53,7 +53,13 @@ body {
     font-weight: 400;
     line-height: 1.5;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
     margin-top: 0;
 }
 address {
@@ -61,6 +67,21 @@ address {
 }
 ul{
     list-style-type: none;
+}
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.section {
+    padding: 48px 0;
+}
+.container {
+    width: 1240px;
+    margin: 0 auto;
 }
 /* Button */
 .button {
@@ -116,6 +137,12 @@ ul{
     color: var(--color-brand-dark);
 }  
 /* Traditions section */
+.traditions-section {
+    padding-top: 96px;
+}
+.traditions-title {
+    margin-bottom: 42px;
+}
 .traditions-text .brand {
     color: var(--color-brand);
     font-weight: 600;
@@ -128,8 +155,15 @@ ul{
 .chef-title {
     font-size: 40px;
     font-weight: 600;
+    margin-bottom: 16px;
+}
+.chefs-title {
+    margin-bottom: 80px;
 }
 /* Formats section */
+.formats-title {
+    margin-bottom: 80px;
+}
 .format-title {
     font-size: 24;
     font-weight: 600;
@@ -137,6 +171,10 @@ ul{
 .format-text {
     font-size: 14px;
     font-weight: 300;
+}
+/* Contact section */
+.contact-title {
+    margin-bottom: 16px;
 }
 /* Footer */
 .address-link {
@@ -151,7 +189,3 @@ ul{
 .address-copyright {
     font-size: 14px;
 }
-
-title {}
-
-title {}
